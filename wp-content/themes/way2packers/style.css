@@ -192,9 +192,9 @@ ul {
 }
 
 /* CTA Button Styles (Desktop) */
-.cta-button.desktop-cta { /* Added .desktop-cta */
+/* .cta-button.desktop-cta { 
     display: inline-block;
-}
+} */
 
 .quote-btn {
     display: inline-block;
@@ -385,6 +385,9 @@ body.mobile-nav-active .mobile-nav-overlay {
 
 /* Responsive Styles */
 @media (max-width: 992px) {
+    .cta-button{
+        display: none;
+    }
     .desktop-nav,
     .desktop-cta {
         display: none; /* Hide desktop nav and CTA */
